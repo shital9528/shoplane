@@ -1,0 +1,16 @@
+.row .loading {
+  font-size: 25px;
+  font-weight: 500;
+  color: gray;
+  margin-left: 10px;
+  text-align: center;
+  padding-top: 8px;
+}
+@media (max-width: 768px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 320px;
+  }
+}

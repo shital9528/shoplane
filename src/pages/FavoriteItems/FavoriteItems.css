@@ -1,0 +1,40 @@
+.empty-fav-container {
+  padding: 2rem 4rem;
+}
+.fav-empty {
+  font-size: 20px;
+  margin-top: 2rem;
+  color: rgb(84, 84, 84);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fav-empty-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.fav-empty-details span svg{
+  color: gray;
+}
+.add-favorites {
+  margin-top: 1rem;
+}
+.add-favorites a {
+  color: gray;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.add-favorites a span {
+  margin-left: 0.5rem;
+}
+@media (max-width: 665px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 320px;
+  }
+}
+
